@@ -46,6 +46,38 @@ Academic homepage for Seongjin Park. Static site built with Quarto.
 - Publications use the pub-* CSS classes for consistent styling
 - Software cards use the software-* CSS classes
 
+## Repo Structure
+
+```
+seongjinpark_homepage/
+├── _quarto.yml            # Site config (nav, theme, metadata, render rules)
+├── styles.css             # Light theme (SCSS layer boundaries required)
+├── styles-dark.css        # Dark theme overrides
+├── index.qmd              # Home page (bio, keyword tags, links)
+├── cv.qmd                 # CV page (placeholder + PDF download)
+├── cv/
+│   └── CV.pdf             # Downloadable CV
+├── publications.qmd       # Publications page (HTML with pub-* CSS classes)
+├── publications.yml       # Structured publication data (YAML, 23 entries)
+├── software.qmd           # Software cards (links to byseon GitHub forks)
+├── contact.qmd            # Contact page (obfuscated email)
+├── notes/
+│   ├── index.qmd          # Notes listing page (Quarto listing feature)
+│   └── YYYY-MM-DD-title/
+│       └── index.qmd      # Individual note posts
+├── CNAME                  # GitHub Pages custom domain (seongjinpark.com)
+├── docs/                  # Built output (quarto render target)
+├── publication_latest.rdf # Zotero RDF export (source data)
+├── GS.bib                 # Google Scholar BibTeX export
+├── .claude/
+│   └── settings.local.json # Local Claude Code permissions
+├── PROJECT.md             # Original project spec
+├── CLAUDE.md              # This file — project conventions
+├── README.md              # Maintenance guide (human + LLM friendly)
+├── STATUS.md              # Latest session updates (gitignored)
+└── .gitignore
+```
+
 ## Color Palette
 
 | Element | Light | Dark |
