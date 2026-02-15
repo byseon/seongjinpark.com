@@ -9,28 +9,28 @@ Open-source tools and libraries for phonetics research and speech technology.
 
 <div class="software-card">
 <h3>automatic_speech_eval</h3>
-<p>Automatic speech evaluation toolkit for L2 pronunciation assessment.</p>
+<p>Toolkit for automatic evaluation of L2 speech, supporting pronunciation assessment and proficiency scoring. Used in research on comparing native and non-native speech for ASR systems.</p>
 <p class="text-secondary">C++</p>
 <div class="card-links"><a href="https://github.com/byseon/automatic_speech_eval">GitHub</a></div>
 </div>
 
 <div class="software-card">
 <h3>proficiency_judgment</h3>
-<p>Automatic proficiency judgment using neural networks.</p>
+<p>Neural network-based system for automatic proficiency judgment of non-native speech. Evaluates accentedness, fluency, and comprehensibility dimensions, as described in Park &amp; Culnan (2019, 2021).</p>
 <p class="text-secondary">Python</p>
 <div class="card-links"><a href="https://github.com/byseon/proficiency_judgment">GitHub</a></div>
 </div>
 
 <div class="software-card">
 <h3>phonetics_scripts</h3>
-<p>Collection of Praat and Python scripts for phonetics research.</p>
-<p class="text-secondary">Python</p>
+<p>Curated collection of Praat and Python scripts for phonetics research. Includes tools for TextGrid manipulation, acoustic measurement extraction, and batch processing of speech data.</p>
+<p class="text-secondary">Praat / Python</p>
 <div class="card-links"><a href="https://github.com/byseon/phonetics_scripts">GitHub</a></div>
 </div>
 
 <div class="software-card">
 <h3>diphone_probability</h3>
-<p>Diphone probability calculator for phonological analysis.</p>
+<p>Scripts for analyzing diphone probability data (Warner et al., 2005), used in research on the role of probability and duration in speech perception (Park &amp; Warner, 2023, <em>Speech Communication</em>).</p>
 <p class="text-secondary">Python</p>
 <div class="card-links"><a href="https://github.com/byseon/diphone_probability">GitHub</a></div>
 </div>
