@@ -1,34 +1,145 @@
-- title: "Automatic Assessment of L2 Pronunciation Using Acoustic Features and Neural Networks"
-  authors: "**Seongjin Park**, Author B, Author C"
-  venue: "Interspeech 2024"
+- title: "Metrical segmentation across dialects."
+  authors: "Natasha Warner, Ki Woong Moon, **Seongjin Park**, James M McQueen, Mohammed K Albusairi"
+  venue: "The Journal of the Acoustical Society of America 155(3_Supplement), A167–A167"
   year: 2024
-  type: conference
-  links:
-    pdf: "#"
-    code: "#"
+  type: journal
 
-- title: "Deep Learning Approaches to Mispronunciation Detection in Second Language Learners"
-  authors: "Author A, **Seongjin Park**, Author D"
-  venue: "Journal of the Acoustical Society of America"
+- title: "The role of probability and duration in perception of speech sounds."
+  authors: "**Seongjin Park**, Natasha Warner"
+  venue: "Speech Communication 152, 102950"
   year: 2023
   type: journal
-  links:
-    pdf: "#"
-    doi: "#"
 
-- title: "Acoustic Correlates of Proficiency in Non-Native English Speech"
-  authors: "**Seongjin Park**, Author E"
-  venue: "ICPhS 2023"
+- title: "Interpretation of speech rhythm: Speech error, speech rhythm, and speech proficiency."
+  authors: "**Seongjin Park**"
+  venue: "The Journal of the Acoustical Society of America 153(3_supplement), A343–A343"
+  year: 2023
+  type: journal
+
+- title: "A Punctuation Restoration System For L2 Speech Using Text And Acoustic Features."
+  authors: "**Seongjin Park**, Aaron Albin, Rutuja Ubale"
+  venue: "Proc. 9th Workshop on Speech and Language Technology in Education (SLaTE), 156–160"
+  year: 2023
+  type: workshop
+  pages: "156–160"
+
+- title: "Multitask Learning Model with Text and Speech Representation for Fine-Grained Speech Scoring."
+  authors: "**Seongjin Park**, Rutuja Ubale"
+  venue: "Automatic Speech Recognition and Understanding (ASRU)"
   year: 2023
   type: conference
-  links:
-    pdf: "#"
 
-- title: "A Toolkit for Automated Speech Evaluation in Language Education"
-  authors: "**Seongjin Park**"
-  venue: "Workshop on NLP for Education, ACL 2022"
+- title: "Answering Geosciences Research Questions at a Global Scale via a Hybrid Machine-Human Learning Approach: A Case Study of the Link between Climate and Volcanism."
+  authors: "**Seongjin Park**, Barbara Carrapa, Mihai N. Ducea, Mihai Surdeanu, Robert Hayes, Dan Collins"
+  venue: "GSA Today 32(11), 4–8"
   year: 2022
+  type: journal
+  pages: "4–8"
+
+- title: "Human and Machine Judgment of Non-Native Speakers' Speech Proficiency."
+  authors: "**Seongjin Park**"
+  venue: "PhD Thesis, The University of Arizona"
+  year: 2021
+  type: thesis
+
+- title: "Me, myself, and ire: Effects of automatic transcription quality on emotion, sarcasm, and personality detection."
+  authors: "John Culnan, **Seongjin Park**, Meghavarshini Krishnaswamy, Rebecca Sharp"
+  venue: "Proceedings of the Eleventh Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis, 250–256"
+  year: 2021
   type: workshop
-  links:
-    pdf: "#"
-    code: "https://github.com/seongjinpark-88/automatic_speech_eval"
+  pages: "250–256"
+
+- title: "Automatic proficiency judgments: Accentedness, fluency, and comprehensibility."
+  authors: "**Seongjin Park**, John Culnan"
+  venue: "The Journal of the Acoustical Society of America 150(4_Supplement), A357–A357"
+  year: 2021
+  type: journal
+
+- title: "The relationship between word error rate and perceptual judgment."
+  authors: "**Seongjin Park**, John Culnan"
+  venue: "The Journal of the Acoustical Society of America 148(4_Supplement), 2763–2763"
+  year: 2020
+  type: journal
+
+- title: "A replication of a test of the metrical segmentation strategy in spoken word recognition."
+  authors: "Natasha L Warner, **Seongjin Park**, James M McQueen, Richard A Southee, Dongdong Zhang, Iris Lin"
+  venue: "The Journal of the Acoustical Society of America 145(3_Supplement), 1915–1915"
+  year: 2019
+  type: journal
+
+- title: "The impact of language transfer on native speaker recognition of native and non-native speech."
+  authors: "John Culnan, **Seongjin Park**"
+  venue: "The Journal of the Acoustical Society of America 146(4_Supplement), 2840–2840"
+  year: 2019
+  type: journal
+
+- title: "A comparison between native and non-native speech for automatic speech recognition."
+  authors: "**Seongjin Park**, John Culnan"
+  venue: "The Journal of the Acoustical Society of America 145(3_Supplement), 1827–1827"
+  year: 2019
+  type: journal
+
+- title: "Automatic perceptual judgment using neural networks."
+  authors: "**Seongjin Park**, John Culnan"
+  venue: "The Journal of the Acoustical Society of America 146(4_Supplement), 2957–2957"
+  year: 2019
+  type: journal
+
+- title: "Spontaneous speech in the teaching of phonetics and speech perception."
+  authors: "Natasha Warner, **Seongjin Park**"
+  venue: "ISAPh 2018 International Symposium on Applied Phonetics, 32–38"
+  year: 2018
+  type: conference
+  pages: "32–38"
+
+- title: "The role of segment probability in perception of speech sounds."
+  authors: "**Seongjin Park**, Maureen Hoffmann, Priscilla Z Shin, Natasha L Warner"
+  venue: "The Journal of the Acoustical Society of America 143(3_Supplement), 1920–1920"
+  year: 2018
+  type: journal
+
+- title: "A replication of competition and prosodic effects on spoken word recognition."
+  authors: "Natasha L Warner, Genesis G Hernandez, **Seongjin Park**, James M McQueen"
+  venue: "The Journal of the Acoustical Society of America 143(3_Supplement), 1921–1921"
+  year: 2018
+  type: journal
+
+- title: "Conversational Speech Reduction across Languages, Second Languages, and Dialects."
+  authors: "Natasha Warner, **Seongjin Park**"
+  venue: "Hanyang International Symposium on Phonetics and Cognitive Sciences of Language 2018 (HisPhonCog 2018), 20–21"
+  year: 2018
+  type: conference
+  pages: "20–21"
+
+- title: "The Role of Within-Category Duration Differences in Speech Perception."
+  authors: "**Seongjin Park**, Natasha Warner"
+  venue: "HisPhonCog 2018, 79–80"
+  year: 2018
+  type: conference
+  pages: "79–80"
+
+- title: "A Corpus-based Study on the Prosodic Features of com in Korean."
+  authors: "Cheonkam Jeong, **Seongjin Park**"
+  venue: "The 92nd Annual Meeting of the Linguistic Society of America"
+  year: 2018
+  type: conference
+
+- title: "The role of prosody in discourse: A case study of Korean com."
+  authors: "Cheonkam Jeong, **Seongjin Park**"
+  venue: "Proceedings of SICSS, 11"
+  year: 2017
+  type: conference
+
+- title: "Perception of English intervocalic liquids by Korean learners of English."
+  authors: "**Seongjin Park**, Tae-Yeoub Jang"
+  venue: "Language and Linguistics (언어와 언어학() 71, 53–77"
+  year: 2016
+  type: journal
+  pages: "53–77"
+
+- title: "Acoustic characteristics of English liquids produced by Korean learners of English."
+  authors: "**Seongjin Park**, Tae-Yeoub Jang"
+  venue: "Studies in Phonetics, Phonology and Morphology (음성음운형태론연구) 22(2), 289–315"
+  year: 2016
+  type: journal
+  pages: "289–315"

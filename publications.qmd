@@ -8,33 +8,155 @@ For a complete list, see my [Google Scholar profile](https://scholar.google.com/
 <div class="pub-year">2024</div>
 
 <div class="pub-entry">
-<span class="pub-title">Automatic Assessment of L2 Pronunciation Using Acoustic Features and Neural Networks</span>
-<span class="pub-authors"><strong>Seongjin Park</strong>, Author B, Author C</span><br>
-<span class="pub-venue">Interspeech 2024</span>
-<span class="pub-links"><a href="#">PDF</a> <a href="#">Code</a></span>
+<span class="pub-title">Metrical segmentation across dialects.</span>
+<span class="pub-authors">Natasha Warner, Ki Woong Moon, <strong>Seongjin Park</strong>, James M McQueen, Mohammed K Albusairi</span><br>
+<span class="pub-venue"><em>The Journal of the Acoustical Society of America</em> 155(3_Supplement), A167–A167</span>
 </div>
 
 <div class="pub-year">2023</div>
 
 <div class="pub-entry">
-<span class="pub-title">Deep Learning Approaches to Mispronunciation Detection in Second Language Learners</span>
-<span class="pub-authors">Author A, <strong>Seongjin Park</strong>, Author D</span><br>
-<span class="pub-venue">Journal of the Acoustical Society of America</span>
-<span class="pub-links"><a href="#">PDF</a> <a href="#">DOI</a></span>
+<span class="pub-title">The role of probability and duration in perception of speech sounds.</span>
+<span class="pub-authors"><strong>Seongjin Park</strong>, Natasha Warner</span><br>
+<span class="pub-venue"><em>Speech Communication</em> 152, 102950</span>
 </div>
 
 <div class="pub-entry">
-<span class="pub-title">Acoustic Correlates of Proficiency in Non-Native English Speech</span>
-<span class="pub-authors"><strong>Seongjin Park</strong>, Author E</span><br>
-<span class="pub-venue">ICPhS 2023</span>
-<span class="pub-links"><a href="#">PDF</a></span>
+<span class="pub-title">Interpretation of speech rhythm: Speech error, speech rhythm, and speech proficiency.</span>
+<span class="pub-authors"><strong>Seongjin Park</strong></span><br>
+<span class="pub-venue"><em>The Journal of the Acoustical Society of America</em> 153(3_supplement), A343–A343</span>
+</div>
+
+<div class="pub-entry">
+<span class="pub-title">A Punctuation Restoration System For L2 Speech Using Text And Acoustic Features.</span>
+<span class="pub-authors"><strong>Seongjin Park</strong>, Aaron Albin, Rutuja Ubale</span><br>
+<span class="pub-venue"><em>Proc. 9th Workshop on Speech and Language Technology in Education (SLaTE)</em>, 156–160</span>
+</div>
+
+<div class="pub-entry">
+<span class="pub-title">Multitask Learning Model with Text and Speech Representation for Fine-Grained Speech Scoring.</span>
+<span class="pub-authors"><strong>Seongjin Park</strong>, Rutuja Ubale</span><br>
+<span class="pub-venue"><em>Automatic Speech Recognition and Understanding (ASRU)</em></span>
 </div>
 
 <div class="pub-year">2022</div>
 
 <div class="pub-entry">
-<span class="pub-title">A Toolkit for Automated Speech Evaluation in Language Education</span>
+<span class="pub-title">Answering Geosciences Research Questions at a Global Scale via a Hybrid Machine-Human Learning Approach: A Case Study of the Link between Climate and Volcanism.</span>
+<span class="pub-authors"><strong>Seongjin Park</strong>, Barbara Carrapa, Mihai N. Ducea, Mihai Surdeanu, Robert Hayes, Dan Collins</span><br>
+<span class="pub-venue"><em>GSA Today</em> 32(11), 4–8</span>
+</div>
+
+<div class="pub-year">2021</div>
+
+<div class="pub-entry">
+<span class="pub-title">Human and Machine Judgment of Non-Native Speakers' Speech Proficiency.</span>
 <span class="pub-authors"><strong>Seongjin Park</strong></span><br>
-<span class="pub-venue">Workshop on NLP for Education, ACL 2022</span>
-<span class="pub-links"><a href="#">PDF</a> <a href="https://github.com/seongjinpark-88/automatic_speech_eval">Code</a></span>
+<span class="pub-venue"><em>PhD Thesis, The University of Arizona</em></span>
+</div>
+
+<div class="pub-entry">
+<span class="pub-title">Me, myself, and ire: Effects of automatic transcription quality on emotion, sarcasm, and personality detection.</span>
+<span class="pub-authors">John Culnan, <strong>Seongjin Park</strong>, Meghavarshini Krishnaswamy, Rebecca Sharp</span><br>
+<span class="pub-venue"><em>Proceedings of the Eleventh Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis</em>, 250–256</span>
+</div>
+
+<div class="pub-entry">
+<span class="pub-title">Automatic proficiency judgments: Accentedness, fluency, and comprehensibility.</span>
+<span class="pub-authors"><strong>Seongjin Park</strong>, John Culnan</span><br>
+<span class="pub-venue"><em>The Journal of the Acoustical Society of America</em> 150(4_Supplement), A357–A357</span>
+</div>
+
+<div class="pub-year">2020</div>
+
+<div class="pub-entry">
+<span class="pub-title">The relationship between word error rate and perceptual judgment.</span>
+<span class="pub-authors"><strong>Seongjin Park</strong>, John Culnan</span><br>
+<span class="pub-venue"><em>The Journal of the Acoustical Society of America</em> 148(4_Supplement), 2763–2763</span>
+</div>
+
+<div class="pub-year">2019</div>
+
+<div class="pub-entry">
+<span class="pub-title">A replication of a test of the metrical segmentation strategy in spoken word recognition.</span>
+<span class="pub-authors">Natasha L Warner, <strong>Seongjin Park</strong>, James M McQueen, Richard A Southee, Dongdong Zhang, Iris Lin</span><br>
+<span class="pub-venue"><em>The Journal of the Acoustical Society of America</em> 145(3_Supplement), 1915–1915</span>
+</div>
+
+<div class="pub-entry">
+<span class="pub-title">The impact of language transfer on native speaker recognition of native and non-native speech.</span>
+<span class="pub-authors">John Culnan, <strong>Seongjin Park</strong></span><br>
+<span class="pub-venue"><em>The Journal of the Acoustical Society of America</em> 146(4_Supplement), 2840–2840</span>
+</div>
+
+<div class="pub-entry">
+<span class="pub-title">A comparison between native and non-native speech for automatic speech recognition.</span>
+<span class="pub-authors"><strong>Seongjin Park</strong>, John Culnan</span><br>
+<span class="pub-venue"><em>The Journal of the Acoustical Society of America</em> 145(3_Supplement), 1827–1827</span>
+</div>
+
+<div class="pub-entry">
+<span class="pub-title">Automatic perceptual judgment using neural networks.</span>
+<span class="pub-authors"><strong>Seongjin Park</strong>, John Culnan</span><br>
+<span class="pub-venue"><em>The Journal of the Acoustical Society of America</em> 146(4_Supplement), 2957–2957</span>
+</div>
+
+<div class="pub-year">2018</div>
+
+<div class="pub-entry">
+<span class="pub-title">Spontaneous speech in the teaching of phonetics and speech perception.</span>
+<span class="pub-authors">Natasha Warner, <strong>Seongjin Park</strong></span><br>
+<span class="pub-venue"><em>ISAPh 2018 International Symposium on Applied Phonetics</em>, 32–38</span>
+</div>
+
+<div class="pub-entry">
+<span class="pub-title">The role of segment probability in perception of speech sounds.</span>
+<span class="pub-authors"><strong>Seongjin Park</strong>, Maureen Hoffmann, Priscilla Z Shin, Natasha L Warner</span><br>
+<span class="pub-venue"><em>The Journal of the Acoustical Society of America</em> 143(3_Supplement), 1920–1920</span>
+</div>
+
+<div class="pub-entry">
+<span class="pub-title">A replication of competition and prosodic effects on spoken word recognition.</span>
+<span class="pub-authors">Natasha L Warner, Genesis G Hernandez, <strong>Seongjin Park</strong>, James M McQueen</span><br>
+<span class="pub-venue"><em>The Journal of the Acoustical Society of America</em> 143(3_Supplement), 1921–1921</span>
+</div>
+
+<div class="pub-entry">
+<span class="pub-title">Conversational Speech Reduction across Languages, Second Languages, and Dialects.</span>
+<span class="pub-authors">Natasha Warner, <strong>Seongjin Park</strong></span><br>
+<span class="pub-venue"><em>Hanyang International Symposium on Phonetics and Cognitive Sciences of Language 2018 (HisPhonCog 2018)</em>, 20–21</span>
+</div>
+
+<div class="pub-entry">
+<span class="pub-title">The Role of Within-Category Duration Differences in Speech Perception.</span>
+<span class="pub-authors"><strong>Seongjin Park</strong>, Natasha Warner</span><br>
+<span class="pub-venue"><em>HisPhonCog 2018</em>, 79–80</span>
+</div>
+
+<div class="pub-entry">
+<span class="pub-title">A Corpus-based Study on the Prosodic Features of com in Korean.</span>
+<span class="pub-authors">Cheonkam Jeong, <strong>Seongjin Park</strong></span><br>
+<span class="pub-venue"><em>The 92nd Annual Meeting of the Linguistic Society of America</em></span>
+</div>
+
+<div class="pub-year">2017</div>
+
+<div class="pub-entry">
+<span class="pub-title">The role of prosody in discourse: A case study of Korean com.</span>
+<span class="pub-authors">Cheonkam Jeong, <strong>Seongjin Park</strong></span><br>
+<span class="pub-venue"><em>Proceedings of SICSS</em>, 11</span>
+</div>
+
+<div class="pub-year">2016</div>
+
+<div class="pub-entry">
+<span class="pub-title">Perception of English intervocalic liquids by Korean learners of English.</span>
+<span class="pub-authors"><strong>Seongjin Park</strong>, Tae-Yeoub Jang</span><br>
+<span class="pub-venue"><em>Language and Linguistics (언어와 언어학)</em> 71, 53–77</span>
+</div>
+
+<div class="pub-entry">
+<span class="pub-title">Acoustic characteristics of English liquids produced by Korean learners of English.</span>
+<span class="pub-authors"><strong>Seongjin Park</strong>, Tae-Yeoub Jang</span><br>
+<span class="pub-venue"><em>Studies in Phonetics, Phonology and Morphology (음성음운형태론연구)</em> 22(2), 289–315</span>
 </div>
