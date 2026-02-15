@@ -1,6 +1,12 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "notes/"
+    - "!PROJECT.md"
+    - "!CLAUDE.md"
+    - "!README.md"
 
 website:
   title: "Seongjin Park"
