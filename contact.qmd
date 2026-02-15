@@ -1,0 +1,13 @@
+---
+title: "Contact"
+toc: false
+---
+
+I am always open to collaboration on research related to phonetics, speech technology, and educational applications of NLP. Feel free to reach out.
+
+**Email:** seongjin.park [at] university.edu
+
+You can also find me on:
+
+- [Google Scholar](https://scholar.google.com/citations?user=-Bc2U_oAAAAJ&hl=en)
+- [GitHub](https://github.com/byseon)

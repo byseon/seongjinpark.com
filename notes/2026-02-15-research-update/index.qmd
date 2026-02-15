@@ -1,0 +1,12 @@
+---
+title: "Research Update: Current Projects"
+date: "2026-02-15"
+description: "An overview of ongoing research projects in pronunciation assessment and speech technology."
+categories: [research]
+---
+
+Our lab has been making steady progress on several fronts related to pronunciation assessment and speech technology. The primary focus this semester has been on refining our neural network architectures for automatic mispronunciation detection, with particular attention to how well these models generalize across different L1 backgrounds. Early results suggest that incorporating speaker-level acoustic features into the model input significantly improves detection accuracy for learners whose native language is typologically distant from English.
+
+In parallel, we have been expanding our dataset of annotated L2 speech recordings. The new data includes speakers from eight additional language backgrounds, bringing the total to over twenty L1 groups represented in the corpus. Careful attention has been paid to balancing proficiency levels within each group, which should help us avoid the biases that affected earlier versions of our evaluation pipeline.
+
+Looking ahead, we plan to investigate the integration of prosodic features into our assessment framework. While segmental accuracy remains the backbone of most pronunciation scoring systems, there is growing evidence that suprasegmental factors such as stress placement, rhythm, and intonation play an important role in perceived proficiency. We expect to have preliminary results from this line of work by the end of the spring semester.

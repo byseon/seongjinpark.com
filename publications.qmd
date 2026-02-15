@@ -1,0 +1,40 @@
+---
+title: "Publications"
+toc: false
+---
+
+For a complete list, see my [Google Scholar profile](https://scholar.google.com/citations?user=-Bc2U_oAAAAJ&hl=en).
+
+<div class="pub-year">2024</div>
+
+<div class="pub-entry">
+<span class="pub-title">Automatic Assessment of L2 Pronunciation Using Acoustic Features and Neural Networks</span>
+<span class="pub-authors"><strong>Seongjin Park</strong>, Author B, Author C</span><br>
+<span class="pub-venue">Interspeech 2024</span>
+<span class="pub-links"><a href="#">PDF</a> <a href="#">Code</a></span>
+</div>
+
+<div class="pub-year">2023</div>
+
+<div class="pub-entry">
+<span class="pub-title">Deep Learning Approaches to Mispronunciation Detection in Second Language Learners</span>
+<span class="pub-authors">Author A, <strong>Seongjin Park</strong>, Author D</span><br>
+<span class="pub-venue">Journal of the Acoustical Society of America</span>
+<span class="pub-links"><a href="#">PDF</a> <a href="#">DOI</a></span>
+</div>
+
+<div class="pub-entry">
+<span class="pub-title">Acoustic Correlates of Proficiency in Non-Native English Speech</span>
+<span class="pub-authors"><strong>Seongjin Park</strong>, Author E</span><br>
+<span class="pub-venue">ICPhS 2023</span>
+<span class="pub-links"><a href="#">PDF</a></span>
+</div>
+
+<div class="pub-year">2022</div>
+
+<div class="pub-entry">
+<span class="pub-title">A Toolkit for Automated Speech Evaluation in Language Education</span>
+<span class="pub-authors"><strong>Seongjin Park</strong></span><br>
+<span class="pub-venue">Workshop on NLP for Education, ACL 2022</span>
+<span class="pub-links"><a href="#">PDF</a> <a href="https://github.com/seongjinpark-88/automatic_speech_eval">Code</a></span>
+</div>

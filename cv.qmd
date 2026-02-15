@@ -1,0 +1,12 @@
+---
+title: "Curriculum Vitae"
+toc: false
+---
+
+My CV is available for download as a PDF.
+
+<div class="btn-row">
+<a href="cv/CV.pdf">Download CV (PDF)</a>
+</div>
+
+<p class="text-secondary">Last updated: February 2026</p>

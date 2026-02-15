@@ -1,0 +1,21 @@
+---
+title: "Seongjin Park"
+toc: false
+page-layout: article
+---
+
+I am a researcher in phonetics and speech technology. My work focuses on pronunciation assessment, automatic speech recognition, and educational applications of natural language processing.
+
+<span class="keyword-tag">phonetics</span>
+<span class="keyword-tag">speech technology</span>
+<span class="keyword-tag">pronunciation assessment</span>
+<span class="keyword-tag">ASR</span>
+<span class="keyword-tag">educational NLP</span>
+
+<div class="btn-row">
+<a href="cv.html">CV</a>
+<a href="publications.html">Publications</a>
+<a href="software.html">Software</a>
+<a href="https://scholar.google.com/citations?user=-Bc2U_oAAAAJ&hl=en">Google Scholar</a>
+<a href="https://github.com/byseon">GitHub</a>
+</div>

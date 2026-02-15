@@ -1,0 +1,34 @@
+- title: "Automatic Assessment of L2 Pronunciation Using Acoustic Features and Neural Networks"
+  authors: "**Seongjin Park**, Author B, Author C"
+  venue: "Interspeech 2024"
+  year: 2024
+  type: conference
+  links:
+    pdf: "#"
+    code: "#"
+
+- title: "Deep Learning Approaches to Mispronunciation Detection in Second Language Learners"
+  authors: "Author A, **Seongjin Park**, Author D"
+  venue: "Journal of the Acoustical Society of America"
+  year: 2023
+  type: journal
+  links:
+    pdf: "#"
+    doi: "#"
+
+- title: "Acoustic Correlates of Proficiency in Non-Native English Speech"
+  authors: "**Seongjin Park**, Author E"
+  venue: "ICPhS 2023"
+  year: 2023
+  type: conference
+  links:
+    pdf: "#"
+
+- title: "A Toolkit for Automated Speech Evaluation in Language Education"
+  authors: "**Seongjin Park**"
+  venue: "Workshop on NLP for Education, ACL 2022"
+  year: 2022
+  type: workshop
+  links:
+    pdf: "#"
+    code: "https://github.com/seongjinpark-88/automatic_speech_eval"

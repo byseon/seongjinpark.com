@@ -1,0 +1,59 @@
+---
+title: "Software"
+toc: false
+---
+
+Open-source tools and libraries for phonetics research and speech technology.
+
+<div class="software-grid">
+
+<div class="software-card">
+<h3>automatic_speech_eval</h3>
+<p>Automatic speech evaluation toolkit for L2 pronunciation assessment.</p>
+<p class="text-secondary">C++</p>
+<div class="card-links"><a href="https://github.com/seongjinpark-88/automatic_speech_eval">GitHub</a></div>
+</div>
+
+<div class="software-card">
+<h3>proficiency_judgment</h3>
+<p>Automatic proficiency judgment using neural networks.</p>
+<p class="text-secondary">Python</p>
+<div class="card-links"><a href="https://github.com/seongjinpark-88/proficiency_judgment">GitHub</a></div>
+</div>
+
+<div class="software-card">
+<h3>phonetics_scripts</h3>
+<p>Collection of Praat and Python scripts for phonetics research.</p>
+<p class="text-secondary">Python</p>
+<div class="card-links"><a href="https://github.com/seongjinpark-88/phonetics_scripts">GitHub</a></div>
+</div>
+
+<div class="software-card">
+<h3>diphone_probability</h3>
+<p>Diphone probability calculator for phonological analysis.</p>
+<p class="text-secondary">Python</p>
+<div class="card-links"><a href="https://github.com/seongjinpark-88/diphone_probability">GitHub</a></div>
+</div>
+
+<div class="software-card">
+<h3>praat-phonetics-toolkit</h3>
+<p>Comprehensive toolkit for acoustic analysis with Praat. (coming soon)</p>
+<p class="text-secondary">Praat / Python</p>
+<div class="card-links"><a href="#">GitHub</a></div>
+</div>
+
+<div class="software-card">
+<h3>pronunciation-eval-pipeline</h3>
+<p>End-to-end pipeline for pronunciation evaluation. (coming soon)</p>
+<p class="text-secondary">Python</p>
+<div class="card-links"><a href="#">GitHub</a></div>
+</div>
+
+<div class="software-card">
+<h3>l2-acoustic-analysis</h3>
+<p>Acoustic analysis tools for L2 speech research. (coming soon)</p>
+<p class="text-secondary">Python</p>
+<div class="card-links"><a href="#">GitHub</a></div>
+</div>
+
+</div>

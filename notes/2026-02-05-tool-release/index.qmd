@@ -1,0 +1,12 @@
+---
+title: "Tool Release: Phonetics Scripts Collection"
+date: "2026-02-05"
+description: "Announcing the release of a curated collection of Praat and Python scripts for phonetics research."
+categories: [tools]
+---
+
+I am happy to announce the public release of a curated collection of Praat and Python scripts that I have developed and refined over the past several years for use in phonetics research. The collection covers a range of common tasks including formant extraction, pitch tracking, vowel space analysis, and voice onset time measurement. Each script is documented with usage instructions and example data.
+
+The motivation for releasing these scripts is straightforward: many of the tasks involved in acoustic phonetics research are repetitive and error-prone when done manually, yet the existing tooling is often fragmented across personal lab repositories and scattered documentation. By bringing these scripts together in a single well-organized repository, I hope to save other researchers time and reduce the barrier to entry for students who are just beginning to work with acoustic data.
+
+The repository is available on GitHub under a permissive open-source license. Contributions and bug reports are welcome. I plan to continue adding scripts as new analysis needs arise in my own research, and I encourage others in the community to submit pull requests with their own tools and improvements.
