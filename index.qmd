@@ -4,11 +4,15 @@ toc: false
 page-layout: article
 ---
 
-I am a researcher in phonetics and speech technology. My work focuses on pronunciation assessment, automatic speech recognition, and educational applications of natural language processing.
+I am a researcher working at the intersection of phonetic science and speech technology. My research bridges human speech perception and production with computational approaches to language — from understanding how listeners process spoken words to building systems that automatically assess pronunciation and fluency in second language learners.
+
+I am particularly interested in how insights from phonetics and psycholinguistics can inform better speech technology, and how computational tools can advance our understanding of spoken language.
 
 <span class="keyword-tag">phonetics</span>
+<span class="keyword-tag">speech perception</span>
 <span class="keyword-tag">speech technology</span>
 <span class="keyword-tag">pronunciation assessment</span>
+<span class="keyword-tag">L2 speech</span>
 <span class="keyword-tag">ASR</span>
 <span class="keyword-tag">educational NLP</span>
 
