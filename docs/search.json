@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "Open-source tools and libraries for phonetics research and speech technology.\n\n\n\nautomatic_speech_eval\n\n\nToolkit for automatic evaluation of L2 speech, supporting pronunciation assessment and proficiency scoring. Used in research on comparing native and non-native speech for ASR systems.\n\n\nC++\n\n\nGitHub\n\n\n\n\nproficiency_judgment\n\n\nNeural network-based system for automatic proficiency judgment of non-native speech. Evaluates accentedness, fluency, and comprehensibility dimensions, as described in Park & Culnan (2019, 2021).\n\n\nPython\n\n\nGitHub\n\n\n\n\nphonetics_scripts\n\n\nCurated collection of Praat and Python scripts for phonetics research. Includes tools for TextGrid manipulation, acoustic measurement extraction, and batch processing of speech data.\n\n\nPraat / Python\n\n\nGitHub\n\n\n\n\ndiphone_probability\n\n\nScripts for analyzing diphone probability data (Warner et al., 2005), used in research on the role of probability and duration in speech perception (Park & Warner, 2023, Speech Communication).\n\n\nPython\n\n\nGitHub\n\n\n\n\npraat-phonetics-toolkit\n\n\nComprehensive toolkit for acoustic analysis with Praat. (coming soon)\n\n\nPraat / Python\n\n\nGitHub\n\n\n\n\npronunciation-eval-pipeline\n\n\nEnd-to-end pipeline for pronunciation evaluation. (coming soon)\n\n\nPython\n\n\nGitHub\n\n\n\n\nl2-acoustic-analysis\n\n\nAcoustic analysis tools for L2 speech research. (coming soon)\n\n\nPython\n\n\nGitHub"
+  },
+  {
+    "objectID": "notes/index.html",
+    "href": "notes/index.html",
+    "title": "Notes",
+    "section": "",
+    "text": "Research Update: Current Projects\n\n\nAn overview of ongoing research projects in pronunciation assessment and speech technology.\n\n\n\n\n\nFeb 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nPaper Summary: Advances in Pronunciation Assessment\n\n\nSummary of recent developments in automated pronunciation assessment for language learners.\n\n\n\n\n\nFeb 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nTool Release: Phonetics Scripts Collection\n\n\nAnnouncing the release of a curated collection of Praat and Python scripts for phonetics research.\n\n\n\n\n\nFeb 5, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "notes/2026-02-10-paper-summary/index.html",
+    "href": "notes/2026-02-10-paper-summary/index.html",
+    "title": "Paper Summary: Advances in Pronunciation Assessment",
+    "section": "",
+    "text": "A number of recent papers have pushed the state of the art in automated pronunciation assessment, and it is worth taking stock of where the field stands. One notable trend is the shift from hand-crafted acoustic features toward end-to-end neural approaches that learn representations directly from raw audio. Several groups have reported improvements using self-supervised speech models as feature extractors, fine-tuned on relatively small amounts of labeled pronunciation data.\nAnother area of active development is the use of large language models to provide more nuanced feedback to learners. Rather than simply assigning a numerical score, these systems attempt to generate natural-language explanations of specific pronunciation errors, including suggestions for improvement. While the quality of such feedback is still uneven, the approach holds promise for making automated assessment tools more pedagogically useful.\nFinally, there has been renewed interest in the fairness and equity dimensions of pronunciation scoring. Researchers have begun to systematically evaluate whether existing systems penalize speakers of certain dialects or L1 backgrounds more heavily than others, and several mitigation strategies have been proposed. This is a critical issue for the deployment of pronunciation assessment tools in high-stakes contexts such as language certification exams."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Seongjin Park",
+    "section": "",
+    "text": "I am a researcher in phonetics and speech technology. My work focuses on pronunciation assessment, automatic speech recognition, and educational applications of natural language processing.\nphonetics speech technology pronunciation assessment ASR educational NLP\n\nCV Publications Software Google Scholar GitHub"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I am always open to collaboration on research related to phonetics, speech technology, and educational applications of NLP. Feel free to reach out.\nEmail: seongjin.park [at] university.edu\nYou can also find me on:\n\nGoogle Scholar\nGitHub"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "My CV is available for download as a PDF.\n\nDownload CV (PDF)\n\n\nLast updated: February 2026"
+  },
+  {
+    "objectID": "notes/2026-02-05-tool-release/index.html",
+    "href": "notes/2026-02-05-tool-release/index.html",
+    "title": "Tool Release: Phonetics Scripts Collection",
+    "section": "",
+    "text": "I am happy to announce the public release of a curated collection of Praat and Python scripts that I have developed and refined over the past several years for use in phonetics research. The collection covers a range of common tasks including formant extraction, pitch tracking, vowel space analysis, and voice onset time measurement. Each script is documented with usage instructions and example data.\nThe motivation for releasing these scripts is straightforward: many of the tasks involved in acoustic phonetics research are repetitive and error-prone when done manually, yet the existing tooling is often fragmented across personal lab repositories and scattered documentation. By bringing these scripts together in a single well-organized repository, I hope to save other researchers time and reduce the barrier to entry for students who are just beginning to work with acoustic data.\nThe repository is available on GitHub under a permissive open-source license. Contributions and bug reports are welcome. I plan to continue adding scripts as new analysis needs arise in my own research, and I encourage others in the community to submit pull requests with their own tools and improvements."
+  },
+  {
+    "objectID": "notes/2026-02-15-research-update/index.html",
+    "href": "notes/2026-02-15-research-update/index.html",
+    "title": "Research Update: Current Projects",
+    "section": "",
+    "text": "Our lab has been making steady progress on several fronts related to pronunciation assessment and speech technology. The primary focus this semester has been on refining our neural network architectures for automatic mispronunciation detection, with particular attention to how well these models generalize across different L1 backgrounds. Early results suggest that incorporating speaker-level acoustic features into the model input significantly improves detection accuracy for learners whose native language is typologically distant from English.\nIn parallel, we have been expanding our dataset of annotated L2 speech recordings. The new data includes speakers from eight additional language backgrounds, bringing the total to over twenty L1 groups represented in the corpus. Careful attention has been paid to balancing proficiency levels within each group, which should help us avoid the biases that affected earlier versions of our evaluation pipeline.\nLooking ahead, we plan to investigate the integration of prosodic features into our assessment framework. While segmental accuracy remains the backbone of most pronunciation scoring systems, there is growing evidence that suprasegmental factors such as stress placement, rhythm, and intonation play an important role in perceived proficiency. We expect to have preliminary results from this line of work by the end of the spring semester."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "For a complete list, see my Google Scholar profile.\n\n2024\n\n\nMetrical segmentation across dialects. Natasha Warner, Ki Woong Moon, Seongjin Park, James M McQueen, Mohammed K Albusairi The Journal of the Acoustical Society of America 155(3_Supplement), A167–A167\n\n\n2023\n\n\nThe role of probability and duration in perception of speech sounds. Seongjin Park, Natasha Warner Speech Communication 152, 102950\n\n\nInterpretation of speech rhythm: Speech error, speech rhythm, and speech proficiency. Seongjin Park The Journal of the Acoustical Society of America 153(3_supplement), A343–A343\n\n\nA Punctuation Restoration System For L2 Speech Using Text And Acoustic Features. Seongjin Park, Aaron Albin, Rutuja Ubale Proc. 9th Workshop on Speech and Language Technology in Education (SLaTE), 156–160\n\n\nMultitask Learning Model with Text and Speech Representation for Fine-Grained Speech Scoring. Seongjin Park, Rutuja Ubale Automatic Speech Recognition and Understanding (ASRU)\n\n\n2022\n\n\nAnswering Geosciences Research Questions at a Global Scale via a Hybrid Machine-Human Learning Approach: A Case Study of the Link between Climate and Volcanism. Seongjin Park, Barbara Carrapa, Mihai N. Ducea, Mihai Surdeanu, Robert Hayes, Dan Collins GSA Today 32(11), 4–8\n\n\n2021\n\n\nHuman and Machine Judgment of Non-Native Speakers’ Speech Proficiency. Seongjin Park PhD Thesis, The University of Arizona\n\n\nMe, myself, and ire: Effects of automatic transcription quality on emotion, sarcasm, and personality detection. John Culnan, Seongjin Park, Meghavarshini Krishnaswamy, Rebecca Sharp Proceedings of the Eleventh Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis, 250–256\n\n\nAutomatic proficiency judgments: Accentedness, fluency, and comprehensibility. Seongjin Park, John Culnan The Journal of the Acoustical Society of America 150(4_Supplement), A357–A357\n\n\n2020\n\n\nThe relationship between word error rate and perceptual judgment. Seongjin Park, John Culnan The Journal of the Acoustical Society of America 148(4_Supplement), 2763–2763\n\n\n2019\n\n\nA replication of a test of the metrical segmentation strategy in spoken word recognition. Natasha L Warner, Seongjin Park, James M McQueen, Richard A Southee, Dongdong Zhang, Iris Lin The Journal of the Acoustical Society of America 145(3_Supplement), 1915–1915\n\n\nThe impact of language transfer on native speaker recognition of native and non-native speech. John Culnan, Seongjin Park The Journal of the Acoustical Society of America 146(4_Supplement), 2840–2840\n\n\nA comparison between native and non-native speech for automatic speech recognition. Seongjin Park, John Culnan The Journal of the Acoustical Society of America 145(3_Supplement), 1827–1827\n\n\nAutomatic perceptual judgment using neural networks. Seongjin Park, John Culnan The Journal of the Acoustical Society of America 146(4_Supplement), 2957–2957\n\n\n2018\n\n\nSpontaneous speech in the teaching of phonetics and speech perception. Natasha Warner, Seongjin Park ISAPh 2018 International Symposium on Applied Phonetics, 32–38\n\n\nThe role of segment probability in perception of speech sounds. Seongjin Park, Maureen Hoffmann, Priscilla Z Shin, Natasha L Warner The Journal of the Acoustical Society of America 143(3_Supplement), 1920–1920\n\n\nA replication of competition and prosodic effects on spoken word recognition. Natasha L Warner, Genesis G Hernandez, Seongjin Park, James M McQueen The Journal of the Acoustical Society of America 143(3_Supplement), 1921–1921\n\n\nConversational Speech Reduction across Languages, Second Languages, and Dialects. Natasha Warner, Seongjin Park Hanyang International Symposium on Phonetics and Cognitive Sciences of Language 2018 (HisPhonCog 2018), 20–21\n\n\nThe Role of Within-Category Duration Differences in Speech Perception. Seongjin Park, Natasha Warner HisPhonCog 2018, 79–80\n\n\nA Corpus-based Study on the Prosodic Features of com in Korean. Cheonkam Jeong, Seongjin Park The 92nd Annual Meeting of the Linguistic Society of America\n\n\n2017\n\n\nThe role of prosody in discourse: A case study of Korean com. Cheonkam Jeong, Seongjin Park Proceedings of SICSS, 11\n\n\n2016\n\n\nPerception of English intervocalic liquids by Korean learners of English. Seongjin Park, Tae-Yeoub Jang Language and Linguistics (언어와 언어학) 71, 53–77\n\n\nAcoustic characteristics of English liquids produced by Korean learners of English. Seongjin Park, Tae-Yeoub Jang Studies in Phonetics, Phonology and Morphology (음성음운형태론연구) 22(2), 289–315"
+  }
+]

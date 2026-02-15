@@ -44,3 +44,7 @@ format:
     fontsize: "17px"
     toc: false
     page-layout: article
+    include-in-header:
+      text: |
+        <meta http-equiv="X-Content-Type-Options" content="nosniff">
+        <meta name="referrer" content="strict-origin-when-cross-origin">
