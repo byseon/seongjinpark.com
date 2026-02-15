@@ -1,0 +1,273 @@
+/* ============================================================
+   Light Theme — Seongjin Park Academic Homepage
+   ============================================================ */
+
+/* --- Google Fonts --- */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap");
+
+/* --- CSS Custom Properties --- */
+:root {
+  --color-primary: #1e3a5f;
+  --color-link: #2d5986;
+  --color-link-hover: #1e3a5f;
+  --color-body-text: #2c3e50;
+  --color-secondary-text: #546e7a;
+  --color-bg: #ffffff;
+  --color-code-bg: #f5f7fa;
+  --color-border: #e8eaed;
+  --content-max-width: 900px;
+}
+
+/* --- Base Typography --- */
+body {
+  color: var(--color-body-text);
+  background-color: var(--color-bg);
+  line-height: 1.7;
+}
+
+/* --- Content Width --- */
+.content,
+main.content,
+div.content,
+#quarto-content {
+  max-width: var(--content-max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* --- Navbar --- */
+.navbar {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+/* --- Links --- */
+a {
+  color: var(--color-link);
+  text-decoration: none;
+  transition: color 0.2s ease, border-bottom-color 0.2s ease;
+}
+
+a:hover,
+a:focus {
+  color: var(--color-link-hover);
+  border-bottom: 1px solid var(--color-link-hover);
+}
+
+.navbar a:hover,
+.navbar a:focus {
+  border-bottom: none;
+}
+
+/* --- Headings --- */
+h1 {
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-weight: 600;
+  border-bottom: 2px solid var(--color-border);
+  padding-bottom: 0.4rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+/* --- Code Blocks --- */
+pre,
+code {
+  background-color: var(--color-code-bg);
+  border-radius: 4px;
+}
+
+pre {
+  padding: 1rem;
+  border: 1px solid var(--color-border);
+}
+
+code {
+  padding: 0.15em 0.35em;
+  font-size: 0.9em;
+}
+
+pre code {
+  padding: 0;
+  font-size: 0.88em;
+}
+
+/* --- Software Card Grid --- */
+.software-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.software-card {
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.software-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.software-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+  font-size: 1.15rem;
+  border-bottom: none;
+}
+
+.software-card p {
+  margin: 0.3rem 0;
+  color: var(--color-secondary-text);
+  font-size: 0.95rem;
+}
+
+.software-card .card-links {
+  margin-top: 0.75rem;
+  font-size: 0.88rem;
+}
+
+.software-card .card-links a {
+  margin-right: 0.75rem;
+}
+
+/* --- Publication Entries --- */
+.pub-year {
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-bottom: 2px solid var(--color-border);
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.pub-entry {
+  padding: 0.75rem 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.15s ease;
+}
+
+.pub-entry:hover {
+  background-color: var(--color-code-bg);
+}
+
+.pub-entry .pub-title {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.pub-entry .pub-authors {
+  color: var(--color-secondary-text);
+  font-size: 0.93rem;
+}
+
+.pub-entry .pub-venue {
+  font-style: italic;
+  font-size: 0.93rem;
+}
+
+.pub-links {
+  display: inline;
+  font-size: 0.85rem;
+  margin-left: 0.25rem;
+}
+
+.pub-links a {
+  margin-right: 0.5rem;
+  padding: 0.15em 0.45em;
+  border: 1px solid var(--color-border);
+  border-radius: 3px;
+  font-size: 0.82rem;
+  white-space: nowrap;
+}
+
+.pub-links a:hover {
+  background-color: var(--color-code-bg);
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* --- Research Keyword Tags --- */
+.keyword-tag {
+  display: inline-block;
+  padding: 0.25em 0.65em;
+  background-color: var(--color-code-bg);
+  border-radius: 4px;
+  font-size: 0.88rem;
+  margin: 0.2rem 0.3rem 0.2rem 0;
+  color: var(--color-secondary-text);
+}
+
+/* --- Button Row --- */
+.btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.btn-row a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5em 1.1em;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  font-size: 0.92rem;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.btn-row a:hover {
+  background-color: var(--color-code-bg);
+  border-color: var(--color-link);
+  border-bottom: 1px solid var(--color-link);
+}
+
+/* --- Secondary / Muted Text --- */
+.text-secondary {
+  color: var(--color-secondary-text);
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .software-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .btn-row {
+    flex-direction: column;
+  }
+
+  .btn-row a {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Seongjin Park"
+  description: "Academic homepage — phonetics, speech technology, pronunciation assessment"
+  site-url: https://seongjinpark.com
+  navbar:
+    background: "#1e3a5f"
+    foreground: "#ffffff"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: cv.qmd
+        text: CV
+      - href: publications.qmd
+        text: Publications
+      - href: software.qmd
+        text: Software
+      - href: notes/index.qmd
+        text: Notes
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: github
+        href: https://github.com/byseon
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=-Bc2U_oAAAAJ&hl=en
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.css]
+      dark: [cosmo, styles-dark.css]
+    mainfont: "IBM Plex Sans"
+    monofont: "JetBrains Mono"
+    fontsize: "17px"
+    toc: false
+    page-layout: article
