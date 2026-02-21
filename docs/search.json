@@ -11,35 +11,14 @@
     "href": "notes/index.html",
     "title": "Notes",
     "section": "",
-    "text": "Research Update: Current Projects\n\n\nAn overview of ongoing research projects in pronunciation assessment and speech technology.\n\n\n\n\n\nFeb 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nPaper Summary: Advances in Pronunciation Assessment\n\n\nSummary of recent developments in automated pronunciation assessment for language learners.\n\n\n\n\n\nFeb 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nTool Release: Phonetics Scripts Collection\n\n\nAnnouncing the release of a curated collection of Praat and Python scripts for phonetics research.\n\n\n\n\n\nFeb 5, 2026\n\n\n\n\n\nNo matching items"
+    "text": "New Tool: claude-deliberate\n\n\nA Claude Code plugin for structured multi-agent discussions and Architecture Decision Records.\n\n\n\n\n\nFeb 21, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nResearch Update: Current Projects\n\n\nAn overview of ongoing research projects in pronunciation assessment and speech technology.\n\n\n\n\n\nFeb 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nPaper Summary: Advances in Pronunciation Assessment\n\n\nSummary of recent developments in automated pronunciation assessment for language learners.\n\n\n\n\n\nFeb 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nTool Release: Phonetics Scripts Collection\n\n\nAnnouncing the release of a curated collection of Praat and Python scripts for phonetics research.\n\n\n\n\n\nFeb 5, 2026\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "notes/2026-02-10-paper-summary/index.html",
-    "href": "notes/2026-02-10-paper-summary/index.html",
-    "title": "Paper Summary: Advances in Pronunciation Assessment",
+    "objectID": "notes/2026-02-15-research-update/index.html",
+    "href": "notes/2026-02-15-research-update/index.html",
+    "title": "Research Update: Current Projects",
     "section": "",
-    "text": "A number of recent papers have pushed the state of the art in automated pronunciation assessment, and it is worth taking stock of where the field stands. One notable trend is the shift from hand-crafted acoustic features toward end-to-end neural approaches that learn representations directly from raw audio. Several groups have reported improvements using self-supervised speech models as feature extractors, fine-tuned on relatively small amounts of labeled pronunciation data.\nAnother area of active development is the use of large language models to provide more nuanced feedback to learners. Rather than simply assigning a numerical score, these systems attempt to generate natural-language explanations of specific pronunciation errors, including suggestions for improvement. While the quality of such feedback is still uneven, the approach holds promise for making automated assessment tools more pedagogically useful.\nFinally, there has been renewed interest in the fairness and equity dimensions of pronunciation scoring. Researchers have begun to systematically evaluate whether existing systems penalize speakers of certain dialects or L1 backgrounds more heavily than others, and several mitigation strategies have been proposed. This is a critical issue for the deployment of pronunciation assessment tools in high-stakes contexts such as language certification exams."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Seongjin Park",
-    "section": "",
-    "text": "I am a researcher working at the intersection of phonetic science and speech technology. My research bridges human speech perception and production with computational approaches to language — from understanding how listeners process spoken words to building systems that automatically assess pronunciation and fluency in second language learners.\nI am particularly interested in how insights from phonetics and psycholinguistics can inform better speech technology, and how computational tools can advance our understanding of spoken language.\nphonetics speech perception speech technology pronunciation assessment L2 speech ASR educational NLP\n\nCV Publications Software Google Scholar GitHub"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "I am always open to collaboration on research related to phonetics, speech technology, and educational applications of NLP. Feel free to reach out.\nEmail: contact [at] seongjinpark.com\nYou can also find me on:\n\nGoogle Scholar\nGitHub"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "My CV is available for download as a PDF.\n\nDownload CV (PDF)\n\n\nLast updated: February 2026"
+    "text": "Our lab has been making steady progress on several fronts related to pronunciation assessment and speech technology. The primary focus this semester has been on refining our neural network architectures for automatic mispronunciation detection, with particular attention to how well these models generalize across different L1 backgrounds. Early results suggest that incorporating speaker-level acoustic features into the model input significantly improves detection accuracy for learners whose native language is typologically distant from English.\nIn parallel, we have been expanding our dataset of annotated L2 speech recordings. The new data includes speakers from eight additional language backgrounds, bringing the total to over twenty L1 groups represented in the corpus. Careful attention has been paid to balancing proficiency levels within each group, which should help us avoid the biases that affected earlier versions of our evaluation pipeline.\nLooking ahead, we plan to investigate the integration of prosodic features into our assessment framework. While segmental accuracy remains the backbone of most pronunciation scoring systems, there is growing evidence that suprasegmental factors such as stress placement, rhythm, and intonation play an important role in perceived proficiency. We expect to have preliminary results from this line of work by the end of the spring semester."
   },
   {
     "objectID": "notes/2026-02-05-tool-release/index.html",
@@ -49,11 +28,39 @@
     "text": "I am happy to announce the public release of a curated collection of Praat and Python scripts that I have developed and refined over the past several years for use in phonetics research. The collection covers a range of common tasks including formant extraction, pitch tracking, vowel space analysis, and voice onset time measurement. Each script is documented with usage instructions and example data.\nThe motivation for releasing these scripts is straightforward: many of the tasks involved in acoustic phonetics research are repetitive and error-prone when done manually, yet the existing tooling is often fragmented across personal lab repositories and scattered documentation. By bringing these scripts together in a single well-organized repository, I hope to save other researchers time and reduce the barrier to entry for students who are just beginning to work with acoustic data.\nThe repository is available on GitHub under a permissive open-source license. Contributions and bug reports are welcome. I plan to continue adding scripts as new analysis needs arise in my own research, and I encourage others in the community to submit pull requests with their own tools and improvements."
   },
   {
-    "objectID": "notes/2026-02-15-research-update/index.html",
-    "href": "notes/2026-02-15-research-update/index.html",
-    "title": "Research Update: Current Projects",
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
     "section": "",
-    "text": "Our lab has been making steady progress on several fronts related to pronunciation assessment and speech technology. The primary focus this semester has been on refining our neural network architectures for automatic mispronunciation detection, with particular attention to how well these models generalize across different L1 backgrounds. Early results suggest that incorporating speaker-level acoustic features into the model input significantly improves detection accuracy for learners whose native language is typologically distant from English.\nIn parallel, we have been expanding our dataset of annotated L2 speech recordings. The new data includes speakers from eight additional language backgrounds, bringing the total to over twenty L1 groups represented in the corpus. Careful attention has been paid to balancing proficiency levels within each group, which should help us avoid the biases that affected earlier versions of our evaluation pipeline.\nLooking ahead, we plan to investigate the integration of prosodic features into our assessment framework. While segmental accuracy remains the backbone of most pronunciation scoring systems, there is growing evidence that suprasegmental factors such as stress placement, rhythm, and intonation play an important role in perceived proficiency. We expect to have preliminary results from this line of work by the end of the spring semester."
+    "text": "My CV is available for download as a PDF.\n\nDownload CV (PDF)\n\n\nLast updated: February 2026"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I am always open to collaboration on research related to phonetics, speech technology, and educational applications of NLP. Feel free to reach out.\nEmail: contact [at] seongjinpark.com\nYou can also find me on:\n\nGoogle Scholar\nGitHub"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Seongjin Park",
+    "section": "",
+    "text": "I am a researcher working at the intersection of phonetic science and speech technology. My research bridges human speech perception and production with computational approaches to language — from understanding how listeners process spoken words to building systems that automatically assess pronunciation and fluency in second language learners.\nI am particularly interested in how insights from phonetics and psycholinguistics can inform better speech technology, and how computational tools can advance our understanding of spoken language.\nphonetics speech perception speech technology pronunciation assessment L2 speech ASR educational NLP\n\nCV Publications Software Google Scholar GitHub"
+  },
+  {
+    "objectID": "notes/2026-02-10-paper-summary/index.html",
+    "href": "notes/2026-02-10-paper-summary/index.html",
+    "title": "Paper Summary: Advances in Pronunciation Assessment",
+    "section": "",
+    "text": "A number of recent papers have pushed the state of the art in automated pronunciation assessment, and it is worth taking stock of where the field stands. One notable trend is the shift from hand-crafted acoustic features toward end-to-end neural approaches that learn representations directly from raw audio. Several groups have reported improvements using self-supervised speech models as feature extractors, fine-tuned on relatively small amounts of labeled pronunciation data.\nAnother area of active development is the use of large language models to provide more nuanced feedback to learners. Rather than simply assigning a numerical score, these systems attempt to generate natural-language explanations of specific pronunciation errors, including suggestions for improvement. While the quality of such feedback is still uneven, the approach holds promise for making automated assessment tools more pedagogically useful.\nFinally, there has been renewed interest in the fairness and equity dimensions of pronunciation scoring. Researchers have begun to systematically evaluate whether existing systems penalize speakers of certain dialects or L1 backgrounds more heavily than others, and several mitigation strategies have been proposed. This is a critical issue for the deployment of pronunciation assessment tools in high-stakes contexts such as language certification exams."
+  },
+  {
+    "objectID": "notes/2026-02-21-claude-deliberate/index.html",
+    "href": "notes/2026-02-21-claude-deliberate/index.html",
+    "title": "New Tool: claude-deliberate",
+    "section": "",
+    "text": "I released claude-deliberate, a plugin for Claude Code that adds structured multi-agent discussions and Architecture Decision Records (ADRs) to any project.\nThe idea is simple: before making an architectural decision, have AI agents argue for, against, and synthesize a middle ground — then record the outcome as an ADR. Everything is stored as markdown files in git, so decisions are versioned, searchable, and reviewable alongside the code they affect.\nThe plugin has three commands:\n\n/deliberate:ideate — explores a vague idea through focused questions, surfacing tradeoffs and sharpening it into a clear question\n/deliberate:discuss — runs a structured debate between agents and produces an ADR with rationale and tradeoffs\n/deliberate:continue — resumes the latest thread to add positions, reopen a decision, or start a follow-up\n\nWhen no project-specific agents are configured, four built-in agents activate automatically: a Moderator who facilitates, an Advocate who argues for, a Critic who argues against, and a Synthesizer who finds middle ground. Projects that already have agents defined in .claude/agents/ get those picked up automatically.\nThe tool grew out of work I did on Soulcraft, where I found that the discussion and decision-recording features were the most broadly useful parts — applicable to any project, not just the specific team setup they were originally built for. Deliberate extracts and focuses that functionality into a standalone plugin.\nThere is also an optional Next.js dashboard for teams who want a real-time visual view of discussions and decisions, though the core plugin works entirely without it.\nThe repository is available on GitHub under the MIT license."
   },
   {
     "objectID": "publications.html",

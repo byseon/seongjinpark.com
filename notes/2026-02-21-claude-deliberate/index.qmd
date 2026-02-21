@@ -1,0 +1,24 @@
+---
+title: "New Tool: claude-deliberate"
+date: "2026-02-21"
+description: "A Claude Code plugin for structured multi-agent discussions and Architecture Decision Records."
+categories: [tools]
+---
+
+I released [claude-deliberate](https://github.com/byseon/claude-deliberate), a plugin for Claude Code that adds structured multi-agent discussions and Architecture Decision Records (ADRs) to any project.
+
+The idea is simple: before making an architectural decision, have AI agents argue for, against, and synthesize a middle ground — then record the outcome as an ADR. Everything is stored as markdown files in git, so decisions are versioned, searchable, and reviewable alongside the code they affect.
+
+The plugin has three commands:
+
+- `/deliberate:ideate` — explores a vague idea through focused questions, surfacing tradeoffs and sharpening it into a clear question
+- `/deliberate:discuss` — runs a structured debate between agents and produces an ADR with rationale and tradeoffs
+- `/deliberate:continue` — resumes the latest thread to add positions, reopen a decision, or start a follow-up
+
+When no project-specific agents are configured, four built-in agents activate automatically: a Moderator who facilitates, an Advocate who argues for, a Critic who argues against, and a Synthesizer who finds middle ground. Projects that already have agents defined in `.claude/agents/` get those picked up automatically.
+
+The tool grew out of work I did on [Soulcraft](https://github.com/byseon), where I found that the discussion and decision-recording features were the most broadly useful parts — applicable to any project, not just the specific team setup they were originally built for. Deliberate extracts and focuses that functionality into a standalone plugin.
+
+There is also an optional Next.js dashboard for teams who want a real-time visual view of discussions and decisions, though the core plugin works entirely without it.
+
+The repository is available on [GitHub](https://github.com/byseon/claude-deliberate) under the MIT license.
