@@ -3,9 +3,16 @@ title: "Software"
 toc: false
 ---
 
-Open-source tools and libraries for phonetics research and speech technology.
+Open-source tools and libraries.
 
 <div class="software-grid">
+
+<div class="software-card">
+<h3>claude-deliberate</h3>
+<p>Structured multi-agent discussions and Architecture Decision Records for any Claude Code project. AI agents debate, you decide — everything is just markdown in git.</p>
+<p class="text-secondary">TypeScript / Claude Code Plugin</p>
+<div class="card-links"><a href="https://github.com/byseon/claude-deliberate">GitHub</a></div>
+</div>
 
 <div class="software-card">
 <h3>automatic_speech_eval</h3>
