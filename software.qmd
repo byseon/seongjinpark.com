@@ -9,7 +9,7 @@ Open-source tools and libraries.
 
 <div class="software-card">
 <h3>claude-deliberate</h3>
-<p>Structured multi-agent discussions and Architecture Decision Records for any Claude Code project. AI agents debate, you decide — everything is just markdown in git.</p>
+<p>Structured multi-agent discussions and Architecture Decision Records for any Claude Code project. Ideate, debate, decide — everything is just markdown in git.</p>
 <p class="text-secondary">TypeScript / Claude Code Plugin</p>
 <div class="card-links"><a href="https://github.com/byseon/claude-deliberate">GitHub</a></div>
 </div>
